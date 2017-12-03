@@ -38,6 +38,7 @@ libraryDependencies ++= Seq(
   "org.wvlet.airframe" %% "airframe-jdbc"    % "(version)", // JDBC connection pool
   "org.wvlet.airframe" %% "airframe-log"     % "(version)", // Logging
   "org.wvlet.airframe" %% "airframe-metrics" % "(version)", // Metrics units
+  "org.wvlet.airframe" %% "airframe-msgpack" % "(version)", // Pure-Scala MessagePack
   "org.wvlet.airframe" %% "airframe-opts"    % "(version)", // Command-line option parser
   "org.wvlet.airframe" %% "airframe-surface" % "(version)", // Object surface inspector
   "org.wvlet.airframe" %% "airframe-tablet"  % "(version)"  // Table data reader/writer
@@ -48,6 +49,7 @@ libraryDependencies ++= Seq(
   "org.wvlet.airframe" %%% "airframe"         % "(version)", // Dependency injection
   "org.wvlet.airframe" %%% "airframe-log"     % "(version)", // Logging
   "org.wvlet.airframe" %%% "airframe-metrics" % "(version)", // Metrics units
+  "org.wvlet.airframe" %%% "airframe-msgpack" % "(version)", // Pure-Scala MessagePack
   "org.wvlet.airframe" %%% "airframe-surface" % "(version)"  // Object surface inspector
 )
 ```
